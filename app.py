@@ -1,7 +1,7 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-const server = http.createServer(process.env.PORT || 3000)
+
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
